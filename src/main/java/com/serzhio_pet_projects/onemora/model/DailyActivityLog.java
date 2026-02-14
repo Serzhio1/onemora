@@ -1,13 +1,13 @@
 package com.serzhio_pet_projects.onemora.model;
 
-import com.serzhio_pet_projects.onemora.enums.ActivityStatus;
+import com.serzhio_pet_projects.onemora.enums.DailyActivityStatus;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
 
-public record ActivityLog(
+public record DailyActivityLog(
         UUID id,
-        ActivityStatus status,
+        DailyActivityStatus status,
         LocalDateTime date,
         UUID challengeId
 ) {

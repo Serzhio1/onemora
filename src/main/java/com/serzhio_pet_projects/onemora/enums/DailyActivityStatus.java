@@ -1,6 +1,6 @@
 package com.serzhio_pet_projects.onemora.enums;
 
-public enum ActivityStatus {
+public enum DailyActivityStatus {
     DONE,
     NOT_DONE
 }
