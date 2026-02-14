@@ -1,3 +1,6 @@
 spring:
   application:
     name: onemora
+
+bot:
+  token: ${BOT_TOKEN}
